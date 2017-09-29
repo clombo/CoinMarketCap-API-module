@@ -46,6 +46,20 @@ t = Market.Ticker(limit=10,convert='EUR')
 print t
 ```
 
+### Ticker for specific cryptocurrency
+
+You can return information regarding a specific currency as well.
+
+```python
+litecoin = Market.Ticker(id='litecoin')
+```
+
+Optional argument includes the convert argument that you can pass to convert the output to the desired currency value.
+
+```python
+litecoin = Market.Ticker(id='litecoin',convert='EUR')
+```
+
 ## Global()
 
 The Global() method returns global data like the total market cap and active currencies.
