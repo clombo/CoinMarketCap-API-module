@@ -19,6 +19,12 @@ TODO:
 
 Example code can be found in **example.py** as well
 
+## import module
+
+```python
+from coincap import Market
+```
+
 The module has two static methods available:
 
 * Ticker()
