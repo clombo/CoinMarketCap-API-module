@@ -12,9 +12,6 @@ NOTES:
 
 To manipulate the timestamp values using the datetime module available in python.
 
-TODO:
-* Make sure to set limit on API requests as per documentation. Have a look at [ratelimter](https://pypi.python.org/pypi/ratelimiter)
-
 # Example Usage
 
 Example code can be found in **example.py** as well
